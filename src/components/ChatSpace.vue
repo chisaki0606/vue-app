@@ -21,7 +21,7 @@ export default {
 <template>
   <div id="app">
     <h2>ChatSpace</h2>
-    <input v-model="comment">
+    <input @keypress.enter="addComment" v-model="comment">
     <button @click="addComment">追加</button>
     <ul>
       <li v-for="(comment, index) in comments" :key="index">{{ comment }} <span @click="removeComment(index)">X</span></li>
