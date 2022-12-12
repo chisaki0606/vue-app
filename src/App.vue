@@ -1,11 +1,14 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import ChatSpace from './components/ChatSpace.vue'
+
 </script>
 
 <template>
+  <nav>
+    <RouterLink to="/list">スレッド一覧</RouterLink>
+  </nav>
   <div>
-    <ChatSpace />
+    <RouterView />
   </div>
   <!-- <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
@@ -18,9 +21,8 @@ import ChatSpace from './components/ChatSpace.vue'
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
-  </header>
+  </header> -->
 
-  <RouterView /> -->
 </template>
 
 <style scoped>

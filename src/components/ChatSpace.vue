@@ -32,6 +32,7 @@ export default {
 <template>
   <div id="app">
     <h2>ChatSpace</h2>
+    <p>{{ this.$route.params.id }}</p>
     <input type="text" @keypress.enter="addComment" v-model="content.comment">
     <button @click="addComment">追加</button>
     <ul>
