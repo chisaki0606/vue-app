@@ -5,7 +5,7 @@ import ChatSpace from './components/ChatSpace.vue'
 
 <template>
   <div>
-    <ChatSpace />  
+    <ChatSpace />
   </div>
   <!-- <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
