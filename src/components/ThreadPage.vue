@@ -25,7 +25,9 @@ export default {
     <h2>スレッド一覧</h2>    
     <ul>
       <li v-for="(thread, index) in threadList" :key="index">
-        <h3>{{ thread.title }}</h3>
+        <router-link :to="`/post/${index}`">
+          <h3>{{ thread.title }}</h3>
+        </router-link>
         <p>{{ thread.text }}</p>
       </li>
     </ul>
