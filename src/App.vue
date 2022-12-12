@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import ChatSpace from './components/ChatSpace.vue'
+import ThreadPage from './components/ThreadPage.vue'
 </script>
 
 <template>
   <div>
     <ChatSpace />
+    <ThreadPage />
   </div>
   <!-- <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
