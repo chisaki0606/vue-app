@@ -8,6 +8,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <RouterLink to="/list">スレッド一覧</RouterLink>
     <RouterLink to="/register">登録</RouterLink>
     <RouterLink to="/login">ログイン</RouterLink>
+    <RouterLink to="/test">テスト</RouterLink>
   </nav>
   <div>
     <RouterView />
